@@ -26,9 +26,10 @@ jobs:
     - name: Run the tests
       run: bash tests-selfmade-project-2-public/run.sh
     - name: Test
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v3
       with:
         name: layout-compare
         path: tests-selfmade-project-2-public/output.jpg
     - name: Show test results
       run: bash tests-selfmade-project-2-public/result.sh
+3
