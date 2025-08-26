@@ -6,3 +6,6 @@
 ### Скриншот
 
 ![](screenshot(2).png)
+### Макет
+
+- Макет задания: [Figma](https://www.figma.com/file/j0GR1cSFoZbUnNWNvpDapI)
