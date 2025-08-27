@@ -22,7 +22,7 @@ jobs:
       run: exit 0
       if: ${{github.event.repository.public}}
     - name: Test
-      run: set -eu && git clone --branch main --single-branch --depth 1 https://github.com/Yandex-Practicum/tests-selfmade-project-2-public.git
+      run: set -eu && git clone --branch main --single-branch --depth 1 https://github.com/kosta38k38/tests-selfmade-project-2-public.git
     - name: Run the tests
       run: bash tests-selfmade-project-2-public/run.sh
     - name: Test
